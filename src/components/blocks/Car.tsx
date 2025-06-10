@@ -5,6 +5,7 @@ const Car = () => {
     <section
       className="
       pt-[2.50rem]
+      pb-[24.13rem]
       px-[2.00rem]
       bg-linear-to-l
       from-[#515157]
@@ -15,6 +16,7 @@ const Car = () => {
       flex-col
       gap-[1.88rem]
       md:px-[4.50rem]
+      md:pb-[21.06rem]
       "
     >
       <div
