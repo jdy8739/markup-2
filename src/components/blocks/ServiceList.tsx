@@ -11,7 +11,7 @@ const ServiceList = () => {
         gap-[1.88rem]"
     >
       <div className="flex flex-col gap-[5rem]">
-        <div className="flex flex-col gap-[1.88rem]">
+        <div className="flex flex-col gap-[1.88rem] md:flex-row md:justify-between">
           <h2 className="text-[2.13rem] font-medium leading-[1.1]">
             We Provide Best Vehicles Solution & Awesome Services
           </h2>
@@ -20,11 +20,20 @@ const ServiceList = () => {
             Suitable for.
           </p>
         </div>
-        <div className="bg-[#6B6C79] py-[2.50rem] flex flex-col gap-[1.69rem]">
+        <div
+          className="
+          bg-[#6B6C79]
+          py-[2.50rem]
+          flex flex-col
+          gap-[1.69rem]
+          md:flex-row
+          md:[&>div]:w-1/2
+          "
+        >
           <div className="h-[17.31rem] relative">
             <img src={BlackCar} alt="Black Car" className="absolute h-full object-right-top object-cover" />
           </div>
-          <div className="text-white flex flex-col gap-[1.25rem] px-[1.88rem]">
+          <div className="text-white flex flex-col gap-[1.25rem] px-[1.88rem] md:justify-between">
             <h3 className="font-bold text-[1.19rem] leading-[1.1]">WE ARE VERY COMPETENT IN THIS FIELD</h3>
             <p className="font-light text-[0.94rem] leading-[1.6]">
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
@@ -33,7 +42,7 @@ const ServiceList = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-[1.88rem]">
+      <div className="flex flex-col gap-[1.88rem] md:grid md:grid-cols-2 md:grid-rows-2">
         <div className="py-[2.50rem] px-[2.70rem] border-1 border-[#DD2F30] flex flex-col gap-2">
           <div className="flex gap-[1.25rem]">
             <div className="bg-[#DD2F30] w-[3.88rem] h-[4.25rem]" />
