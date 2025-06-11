@@ -1,6 +1,7 @@
 import Banner from './components/blocks/Banner';
 import Car from './components/blocks/Car';
 import Form from './components/blocks/Form';
+import ServiceList from './components/blocks/ServiceList';
 import Layout from './components/layout/Layout';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Banner />
         <Car />
         <Form />
+        <ServiceList />
       </Layout>
     </div>
   );
