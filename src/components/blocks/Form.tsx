@@ -7,6 +7,7 @@ const Form = () => {
       className="
       relative
       h-[53.75rem]
+      mb-[3.44rem]
       mx-[2.00rem]
       md:h-[29.00rem]
       "

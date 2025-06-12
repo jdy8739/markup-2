@@ -5,7 +5,7 @@ const ServiceList = () => {
   return (
     <section
       className="
-        py-[6.88rem]
+        py-[3.44rem]
         px-[2rem]
         flex flex-col
         gap-[1.88rem]"
