@@ -14,10 +14,10 @@ const Products = () => {
         flex flex-col
         gap-[5.00rem]"
     >
-      <div className="h-[15.44rem]">
+      <div className="h-[15.44rem] md:h-[23.38rem]">
         <img src={profile} alt="profile" className="w-full h-full object-top object-cover" />
       </div>
-      <div>
+      <div className="md:pr-[3.81rem]">
         <div className="flex flex-col gap-[2.5rem]">
           <h2 className="text-[2.13rem] font-medium">Our Featured Car</h2>
           <p className="text-[1.19rem] font-light text-[#A6A6A6] leading-[1.6]">
@@ -29,7 +29,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="md:pr-[3.81rem]">
         <ul className="flex flex-col gap-[3.75rem]">
           <li className="h-[37.13rem] relative">
             <div className="absolute top-0 right-0 w-full h-full bg-[#A6A6A6] opacity-16" />
@@ -37,7 +37,7 @@ const Products = () => {
               <div>
                 <span className="bg-[#DD2F30] text-white px-[0.69rem] py-[0.38rem] font-bold rounded-sm">USED</span>
               </div>
-              <div className="h-[9.44rem]">
+              <div className="h-[9.44rem] md:h-[13rem]">
                 <img src={car1} alt="car1" className="w-full h-full object-contain" />
               </div>
               <div />
@@ -62,20 +62,20 @@ const Products = () => {
               </div>
             </div>
           </li>
-          <li className="h-[37.13rem] relative">
+          <li className="h-[37.13rem] relative border-[1px] border-[#DD2F30] box-border">
             <div className="absolute top-0 right-0 w-full h-full bg-[#A6A6A6] opacity-16" />
             <div className="h-[18.75rem] bg-linear-to-tl from-[rgba(88,88,88,0.62)] to-white py-[1.25rem] px-[1.50rem] flex flex-col justify-between">
               <div>
                 <span className="bg-[#DD2F30] text-white px-[0.69rem] py-[0.38rem] font-bold rounded-sm">USED</span>
               </div>
-              <div className="h-[9.44rem]">
+              <div className="h-[9.44rem] md:h-[13rem]">
                 <img src={car2} alt="car2" className="w-full h-full object-contain" />
               </div>
               <div />
             </div>
             <div className="pt-[2.38rem] h-[18.75rem] pb-[1.88rem] px-[1.50rem] flex flex-col justify-between">
               <div className="flex flex-col gap-[1.25rem]">
-                <h2 className="text-[1.88rem] text-[#101C48]">Audi A4 Avant White 2013</h2>
+                <h2 className="text-[1.88rem] text-[#101C48]">Audi A5 Cabriolet 2.0TFSI</h2>
                 <div>
                   <div></div>
                   <div>5.0 (100+ Reviews)</div>
@@ -88,7 +88,7 @@ const Products = () => {
                 <hr className="text-[#101C48]" />
               </div>
               <div className="flex justify-between items-center">
-                <div className="text-[#DD2F30] font-bold text-[1.38rem]">$11.436,92</div>
+                <div className="text-[#DD2F30] font-bold text-[1.38rem]">$79.400,48</div>
                 <BorderButton>DETAILS</BorderButton>
               </div>
             </div>
@@ -99,14 +99,14 @@ const Products = () => {
               <div>
                 <span className="bg-[#DD2F30] text-white px-[0.69rem] py-[0.38rem] font-bold rounded-sm">USED</span>
               </div>
-              <div className="h-[9.44rem]">
+              <div className="h-[9.44rem] md:h-[13rem]">
                 <img src={car3} alt="car3" className="w-full h-full object-contain" />
               </div>
               <div />
             </div>
             <div className="pt-[2.38rem] h-[18.75rem] pb-[1.88rem] px-[1.50rem] flex flex-col justify-between">
               <div className="flex flex-col gap-[1.25rem]">
-                <h2 className="text-[1.88rem] text-[#101C48]">Audi A4 Avant White 2013</h2>
+                <h2 className="text-[1.88rem] text-[#101C48]">Pontiac Solstice GXP Coupe</h2>
                 <div>
                   <div></div>
                   <div>5.0 (100+ Reviews)</div>
@@ -119,7 +119,7 @@ const Products = () => {
                 <hr className="text-[#101C48]" />
               </div>
               <div className="flex justify-between items-center">
-                <div className="text-[#DD2F30] font-bold text-[1.38rem]">$11.436,92</div>
+                <div className="text-[#DD2F30] font-bold text-[1.38rem]">$5.382,55</div>
                 <BorderButton>DETAILS</BorderButton>
               </div>
             </div>
