@@ -8,7 +8,7 @@ import Layout from './components/layout/Layout';
 
 function App() {
   return (
-    <div className="min-w-[30.00rem]">
+    <div className="min-w-[30.00rem] overflow-hidden">
       <Layout>
         <Banner />
         <Car />
