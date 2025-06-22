@@ -11,7 +11,11 @@ const Menu = ({ isMenuOpen, setIsMenuOpen }: { isMenuOpen: boolean; setIsMenuOpe
         z-1
         duration-300
         ${isMenuOpen ? 'translate-x-[-100%]' : 'translate-x-0'}`}
-      onClick={() => setIsMenuOpen(false)}
+      onClick={() => {
+        if (isMenuOpen) {
+          setIsMenuOpen(false);
+        }
+      }}
     >
       <div></div>
     </aside>

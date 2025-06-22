@@ -2,10 +2,32 @@ import logo from '../../../public/images/logo.png';
 import close from '../../../public/svgs/close.svg';
 import burger from '../../../public/svgs/burger.svg';
 import Menu from './Menu';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const scrollYCache = useRef(0);
+
+  useEffect(() => {
+    const main = document.querySelector('main')!;
+
+    if (isMenuOpen) {
+      setTimeout(() => {
+        scrollYCache.current = window.scrollY;
+
+        main.style.overflow = 'hidden';
+        main.style.height = '100dvh';
+      }, 300);
+    } else {
+      main.style.overflow = 'auto';
+      main.style.height = '';
+
+      window.scrollTo(0, scrollYCache.current);
+      scrollYCache.current = 0;
+    }
+  }, [isMenuOpen]);
+
   return (
     <header
       className="
