@@ -1,5 +1,4 @@
 import logo from '../../../public/images/logo.png';
-import close from '../../../public/svgs/close.svg';
 import burger from '../../../public/svgs/burger.svg';
 import Menu from './Menu';
 import { useEffect, useRef, useState } from 'react';
