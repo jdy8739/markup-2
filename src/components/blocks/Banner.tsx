@@ -7,7 +7,7 @@ const Banner = () => {
       bg-linear-to-l
       from-[#30313E]
       to-[#515157]
-      py-[6.25rem_6.81rem]
+      py-[12.5rem_6.81rem]
       px-[2.00rem]
       flex flex-col gap-[2.50rem]
       md:px-[4.50rem]
