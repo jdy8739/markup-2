@@ -21,7 +21,7 @@ const ServiceList = () => {
         </p>
       </div>
 
-      <div className="lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-y-[2rem] lg:gap-x-[1.6rem]">
+      <div className="flex flex-col gap-[1.88rem] lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-y-[2rem] lg:gap-x-[1.6rem]">
         <div
           className="
           bg-[#6B6C79]
