@@ -12,7 +12,8 @@ const Products = () => {
         py-[3.44rem]
         px-[2rem]
         flex flex-col
-        gap-[5.00rem]"
+        gap-[5.00rem]
+        "
     >
       <div className="h-[15.44rem] md:h-[23.38rem] lg:h-[34.38rem]">
         <img src={profile} alt="profile" className="w-full h-full object-top object-cover" />
@@ -44,7 +45,7 @@ const Products = () => {
               </div>
               <div />
             </div>
-            <div className="pt-[2.38rem] h-[18.75rem] pb-[1.88rem] px-[1.50rem] flex flex-col justify-between">
+            <div className="pt-[2.38rem] min-h-[18.75rem] pb-[1.88rem] px-[1.50rem] flex flex-col justify-between gap-[1.25rem]">
               <div className="flex flex-col gap-[1.25rem]">
                 <h2 className="text-[1.88rem] text-[#101C48] lg:text-[1.38rem]">Audi A4 Avant White 2013</h2>
                 <div>
@@ -75,9 +76,9 @@ const Products = () => {
               </div>
               <div />
             </div>
-            <div className="pt-[2.38rem] h-[18.75rem] pb-[1.88rem] px-[1.50rem] flex flex-col justify-between">
+            <div className="pt-[2.38rem] min-h-[18.75rem] pb-[1.88rem] px-[1.50rem] flex flex-col justify-between gap-[1.25rem]">
               <div className="flex flex-col gap-[1.25rem]">
-                <h2 className="text-[1.88rem] text-[#101C48] lg:text-[1.38rem]">Audi A5 Cabriolet 2.0TFSI</h2>
+                <h2 className="text-[1.88rem] text-[#DD2F30] lg:text-[1.38rem]">Audi A5 Cabriolet 2.0TFSI</h2>
                 <div>
                   <div></div>
                   <div>5.0 (100+ Reviews)</div>
@@ -95,7 +96,7 @@ const Products = () => {
               </div>
             </div>
           </li>
-          <li className="h-[37.13rem] relative">
+          <li className="min-h-[37.13rem] relative">
             <div className="absolute top-0 right-0 w-full h-full bg-[#A6A6A6] opacity-16" />
             <div className="h-[18.75rem] bg-linear-to-tl from-[rgba(88,88,88,0.62)] to-white py-[1.25rem] px-[1.50rem] flex flex-col justify-between">
               <div>
@@ -106,7 +107,7 @@ const Products = () => {
               </div>
               <div />
             </div>
-            <div className="pt-[2.38rem] h-[18.75rem] pb-[1.88rem] px-[1.50rem] flex flex-col justify-between">
+            <div className="pt-[2.38rem] min-h-[18.75rem] pb-[1.88rem] px-[1.50rem] flex flex-col justify-between gap-[1.25rem]">
               <div className="flex flex-col gap-[1.25rem]">
                 <h2 className="text-[1.88rem] text-[#101C48] lg:text-[1.38rem]">Pontiac Solstice GXP Coupe</h2>
                 <div>
