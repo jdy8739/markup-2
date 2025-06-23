@@ -6,6 +6,7 @@ const Car = () => {
       className="
       pt-[2.50rem]
       pb-[24.13rem]
+      lg:pb-[15.00rem]
       px-[2.00rem]
       bg-linear-to-l
       from-[#515157]
@@ -17,6 +18,7 @@ const Car = () => {
       gap-[1.88rem]
       md:px-[4.50rem]
       md:pb-[21.06rem]
+      lg:px-[7.50rem]
       "
     >
       <div
@@ -29,11 +31,14 @@ const Car = () => {
         text-[#FEFEFE]
         leading-[1.1]
         opacity-8
-        md:text-[21.25rem]"
+        md:text-[21.25rem]
+        lg:text-[25.31rem]
+        lg:left-[-4.6rem]
+        "
       >
         DEALER
       </div>
-      <div className="flex flex-col gap-[6.25rem] md:flex-col-reverse">
+      <div className="flex flex-col gap-[6.25rem] md:flex-col-reverse lg:flex-col lg:gap-0 relative">
         <div>
           <ul className="flex flex-col gap-[1.88rem] md:flex-row">
             <li className="flex flex-col gap-[0.38rem]">
@@ -51,7 +56,7 @@ const Car = () => {
               <div className="text-[#FEFEFE] text-[1.19rem]">Years Experience</div>
             </li>
           </ul>
-          <p className="text-[#A6A6A6] text-[0.94rem] leading-[1.6]">
+          <p className="text-[#A6A6A6] text-[0.94rem] leading-[1.6] lg:w-[31.63rem]">
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Duis aute irure dolor in velit.
           </p>
@@ -59,11 +64,21 @@ const Car = () => {
             <img
               src={car}
               alt="car"
-              className="absolute bottom-0 left-0 md:right-[-12rem] md:left-auto max-w-none h-full"
+              className="
+              absolute
+              bottom-0
+              left-0
+              md:right-[-12rem]
+              md:left-auto
+              max-w-none
+              h-full
+              lg:h-[38.13rem]
+              lg:top-[-7rem]
+              "
             />
           </div>
         </div>
-        <div>
+        <div className="lg:absolute lg:bottom-[2rem]">
           <p className="font-bold tracking-wider text-white text-[0.94rem]">GET TO KNOW MORE:</p>
           <ul></ul>
         </div>

@@ -8,18 +8,20 @@ const ServiceList = () => {
         py-[3.44rem]
         px-[2rem]
         flex flex-col
-        gap-[1.88rem]"
+        gap-[1.88rem]
+        lg:px-[7.50rem]"
     >
-      <div className="flex flex-col gap-[5rem]">
-        <div className="flex flex-col gap-[1.88rem] md:flex-row md:justify-between">
-          <h2 className="text-[2.13rem] font-medium leading-[1.1]">
-            We Provide Best Vehicles Solution & Awesome Services
-          </h2>
-          <p className="text-[#A6A6A6] text-[0.94rem] leading-[1.6]">
-            Car Dealer is the most enticing, creative, modern and multipurpose auto dealer premium WordPress Theme.
-            Suitable for.
-          </p>
-        </div>
+      <div className="flex flex-col gap-[1.88rem] md:gap-auto md:flex-row md:justify-between lg:gap-0">
+        <h2 className="text-[2.13rem] font-medium leading-[1.1] lg:w-[43.38rem]">
+          We Provide Best Vehicles Solution & Awesome Services
+        </h2>
+        <p className="text-[#A6A6A6] text-[0.94rem] leading-[1.6] lg:w-[18rem]">
+          Car Dealer is the most enticing, creative, modern and multipurpose auto dealer premium WordPress Theme.
+          Suitable for.
+        </p>
+      </div>
+
+      <div className="lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-y-[2rem] lg:gap-x-[1.6rem]">
         <div
           className="
           bg-[#6B6C79]
@@ -28,6 +30,7 @@ const ServiceList = () => {
           gap-[1.69rem]
           md:flex-row
           md:[&>div]:w-1/2
+          lg:col-span-2
           "
         >
           <div className="h-[17.31rem] relative">
@@ -41,55 +44,56 @@ const ServiceList = () => {
             <BlurButton className="self-start">LEARN MORE</BlurButton>
           </div>
         </div>
-      </div>
-      <div className="flex flex-col gap-[1.88rem] md:grid md:grid-cols-2 md:grid-rows-2">
-        <div className="py-[2.50rem] px-[2.70rem] border-1 border-[#DD2F30] flex flex-col gap-2">
-          <div className="flex gap-[1.25rem]">
-            <div className="bg-[#DD2F30] w-[3.88rem] h-[4.25rem]" />
-            <h3 className="self-center text-[1.38rem]">
-              Engine <div>Management</div>
-            </h3>
+
+        <div className="flex flex-col gap-[1.88rem] md:grid md:grid-cols-2 md:grid-rows-2 lg:contents">
+          <div className="py-[2.50rem] px-[2.70rem] border-1 border-[#DD2F30] flex flex-col gap-2">
+            <div className="flex gap-[1.25rem]">
+              <div className="bg-[#DD2F30] w-[3.88rem] h-[4.25rem]" />
+              <h3 className="self-center text-[1.38rem]">
+                Engine <div>Management</div>
+              </h3>
+            </div>
+            <p className="text-[#A6A6A6] text-[1.19rem] leading-[1.6] font-light">
+              Aliquid illo similique minima magni quidem sequi corporis fugiat type and
+            </p>
+            <div className="text-[#DD2F30]">Read More</div>
           </div>
-          <p className="text-[#A6A6A6] text-[1.19rem] leading-[1.6] font-light">
-            Aliquid illo similique minima magni quidem sequi corporis fugiat type and
-          </p>
-          <div className="text-[#DD2F30]">Read More</div>
-        </div>
-        <div className="py-[2.50rem] px-[2.70rem] border-1 border-[#DD2F30] flex flex-col gap-2">
-          <div className="flex gap-[1.25rem]">
-            <div className="bg-[#DD2F30] w-[3.88rem] h-[4.25rem]" />
-            <h3 className="self-center text-[1.38rem]">
-              EV <div>Batteries</div>
-            </h3>
+          <div className="py-[2.50rem] px-[2.70rem] border-1 border-[#DD2F30] flex flex-col gap-2">
+            <div className="flex gap-[1.25rem]">
+              <div className="bg-[#DD2F30] w-[3.88rem] h-[4.25rem]" />
+              <h3 className="self-center text-[1.38rem]">
+                EV <div>Batteries</div>
+              </h3>
+            </div>
+            <p className="text-[#A6A6A6] text-[1.19rem] leading-[1.6] font-light">
+              Aliquid illo similique minima magni quidem sequi corporis fugiat type and
+            </p>
+            <div className="text-[#DD2F30]">Read More</div>
           </div>
-          <p className="text-[#A6A6A6] text-[1.19rem] leading-[1.6] font-light">
-            Aliquid illo similique minima magni quidem sequi corporis fugiat type and
-          </p>
-          <div className="text-[#DD2F30]">Read More</div>
-        </div>
-        <div className="py-[2.50rem] px-[2.70rem] border-1 border-[#DD2F30] flex flex-col gap-2">
-          <div className="flex gap-[1.25rem]">
-            <div className="bg-[#DD2F30] w-[3.88rem] h-[4.25rem]" />
-            <h3 className="self-center text-[1.38rem]">
-              Charging <div>Station</div>
-            </h3>
+          <div className="py-[2.50rem] px-[2.70rem] border-1 border-[#DD2F30] flex flex-col gap-2">
+            <div className="flex gap-[1.25rem]">
+              <div className="bg-[#DD2F30] w-[3.88rem] h-[4.25rem]" />
+              <h3 className="self-center text-[1.38rem]">
+                Charging <div>Station</div>
+              </h3>
+            </div>
+            <p className="text-[#A6A6A6] text-[1.19rem] leading-[1.6] font-light">
+              Aliquid illo similique minima magni quidem sequi corporis fugiat type and
+            </p>
+            <div className="text-[#DD2F30]">Read More</div>
           </div>
-          <p className="text-[#A6A6A6] text-[1.19rem] leading-[1.6] font-light">
-            Aliquid illo similique minima magni quidem sequi corporis fugiat type and
-          </p>
-          <div className="text-[#DD2F30]">Read More</div>
-        </div>
-        <div className="py-[2.50rem] px-[2.70rem] border-1 border-[#DD2F30] flex flex-col gap-2">
-          <div className="flex gap-[1.25rem]">
-            <div className="bg-[#DD2F30] w-[3.88rem] h-[4.25rem]" />
-            <h3 className="self-center text-[1.38rem]">
-              EV Fast <div>Charging</div>
-            </h3>
+          <div className="py-[2.50rem] px-[2.70rem] border-1 border-[#DD2F30] flex flex-col gap-2">
+            <div className="flex gap-[1.25rem]">
+              <div className="bg-[#DD2F30] w-[3.88rem] h-[4.25rem]" />
+              <h3 className="self-center text-[1.38rem]">
+                EV Fast <div>Charging</div>
+              </h3>
+            </div>
+            <p className="text-[#A6A6A6] text-[1.19rem] leading-[1.6] font-light">
+              Aliquid illo similique minima magni quidem sequi corporis fugiat type and
+            </p>
+            <div className="text-[#DD2F30]">Read More</div>
           </div>
-          <p className="text-[#A6A6A6] text-[1.19rem] leading-[1.6] font-light">
-            Aliquid illo similique minima magni quidem sequi corporis fugiat type and
-          </p>
-          <div className="text-[#DD2F30]">Read More</div>
         </div>
       </div>
     </section>

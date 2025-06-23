@@ -28,7 +28,7 @@ const Form = () => {
         <div>
           <h2 className="text-[2.63rem] font-medium font-[#121212] leading-[1.1]">Quick Vehicle Search</h2>
         </div>
-        <div className="flex flex-col gap-[2.50rem] md:grid md:grid-cols-2 md:grid-rows-2">
+        <div className="flex flex-col gap-[2.50rem] md:grid md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-2">
           <div>
             <Select label="Vehicle Body Type" defaultValue="All Models" />
           </div>

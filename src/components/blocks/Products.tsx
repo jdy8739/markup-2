@@ -14,23 +14,25 @@ const Products = () => {
         flex flex-col
         gap-[5.00rem]"
     >
-      <div className="h-[15.44rem] md:h-[23.38rem]">
+      <div className="h-[15.44rem] md:h-[23.38rem] lg:h-[34.38rem]">
         <img src={profile} alt="profile" className="w-full h-full object-top object-cover" />
       </div>
-      <div className="md:pr-[3.81rem]">
-        <div className="flex flex-col gap-[2.5rem]">
-          <h2 className="text-[2.13rem] font-medium">Our Featured Car</h2>
-          <p className="text-[1.19rem] font-light text-[#A6A6A6] leading-[1.6]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna. 
-          </p>
-          <div>
+      <div className="md:pr-[3.81rem] lg:px-[7.38rem]">
+        <div className="flex flex-col gap-[2.5rem] lg:flex-row lg:justify-between">
+          <div className="flex flex-col gap-[1.25rem] lg:w-[50%]">
+            <h2 className="text-[2.13rem] font-medium">Our Featured Car</h2>
+            <p className="text-[1.19rem] font-light text-[#A6A6A6] leading-[1.6]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna. 
+            </p>
+          </div>
+          <div className="lg:self-end">
             <BlurButton>FIND MORE</BlurButton>
           </div>
         </div>
       </div>
-      <div className="md:pr-[3.81rem]">
-        <ul className="flex flex-col gap-[3.75rem]">
+      <div className="md:pr-[3.81rem] lg:px-[7.38rem]">
+        <ul className="flex flex-col gap-[3.75rem] lg:flex-row lg:gap-[1rem]">
           <li className="h-[37.13rem] relative">
             <div className="absolute top-0 right-0 w-full h-full bg-[#A6A6A6] opacity-16" />
             <div className="h-[18.75rem] bg-linear-to-tl from-[rgba(88,88,88,0.62)] to-white py-[1.25rem] px-[1.50rem] flex flex-col justify-between">
@@ -44,7 +46,7 @@ const Products = () => {
             </div>
             <div className="pt-[2.38rem] h-[18.75rem] pb-[1.88rem] px-[1.50rem] flex flex-col justify-between">
               <div className="flex flex-col gap-[1.25rem]">
-                <h2 className="text-[1.88rem] text-[#101C48]">Audi A4 Avant White 2013</h2>
+                <h2 className="text-[1.88rem] text-[#101C48] lg:text-[1.38rem]">Audi A4 Avant White 2013</h2>
                 <div>
                   <div></div>
                   <div>5.0 (100+ Reviews)</div>
@@ -75,7 +77,7 @@ const Products = () => {
             </div>
             <div className="pt-[2.38rem] h-[18.75rem] pb-[1.88rem] px-[1.50rem] flex flex-col justify-between">
               <div className="flex flex-col gap-[1.25rem]">
-                <h2 className="text-[1.88rem] text-[#101C48]">Audi A5 Cabriolet 2.0TFSI</h2>
+                <h2 className="text-[1.88rem] text-[#101C48] lg:text-[1.38rem]">Audi A5 Cabriolet 2.0TFSI</h2>
                 <div>
                   <div></div>
                   <div>5.0 (100+ Reviews)</div>
@@ -106,7 +108,7 @@ const Products = () => {
             </div>
             <div className="pt-[2.38rem] h-[18.75rem] pb-[1.88rem] px-[1.50rem] flex flex-col justify-between">
               <div className="flex flex-col gap-[1.25rem]">
-                <h2 className="text-[1.88rem] text-[#101C48]">Pontiac Solstice GXP Coupe</h2>
+                <h2 className="text-[1.88rem] text-[#101C48] lg:text-[1.38rem]">Pontiac Solstice GXP Coupe</h2>
                 <div>
                   <div></div>
                   <div>5.0 (100+ Reviews)</div>

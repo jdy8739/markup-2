@@ -3,8 +3,8 @@ import solutions from '../../../public/images/solution.jpg';
 
 const Solutions = () => {
   return (
-    <section className="py-[3.44rem] px-[2rem] flex flex-col gap-[5.00rem]">
-      <div className="h-[26.00rem] md:h-[38.94rem] relative">
+    <section className="py-[3.44rem] px-[2rem] flex flex-col gap-[5.00rem] lg:px-[7.50rem] lg:flex-row">
+      <div className="h-[26.00rem] md:h-[38.94rem] relative lg:w-1/1 lg:min-w-[31.63rem]">
         <img
           src={solutions}
           alt="solutions"
@@ -53,19 +53,19 @@ const Solutions = () => {
             </div>
           </li>
         </ul>
-      </div>
 
-      <div className="flex items-center gap-[2.50rem]">
-        <div>
-          <BlurButton>LEARN MORE</BlurButton>
-        </div>
-        <div className="bg-[#9899A6] h-[5.31rem] w-[1px]" />
-        <div className="flex flex-col gap-[0.63rem]">
-          <div className="text-[1.19rem]">Trusted By 900+</div>
-          <div className="font-light flex justify-between">
-            <span></span>
-            <span>4.9</span>
-            <span className="text-[#A6A6A6]">(2.5K Review)</span>
+        <div className="flex items-center gap-[2.50rem]">
+          <div>
+            <BlurButton>LEARN MORE</BlurButton>
+          </div>
+          <div className="bg-[#9899A6] h-[5.31rem] w-[1px]" />
+          <div className="flex flex-col gap-[0.63rem]">
+            <div className="text-[1.19rem]">Trusted By 900+</div>
+            <div className="font-light flex justify-between">
+              <span></span>
+              <span>4.9</span>
+              <span className="text-[#A6A6A6]">(2.5K Review)</span>
+            </div>
           </div>
         </div>
       </div>
