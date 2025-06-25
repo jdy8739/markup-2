@@ -19,7 +19,7 @@ const Menu = ({ isMenuOpen, setIsMenuOpen }: { isMenuOpen: boolean; setIsMenuOpe
         overflow-y-scroll
         ${isMenuOpen ? 'translate-x-[-100%]' : 'translate-x-0'}`}
     >
-      <div className="sticky top-0 px-[2rem] py-[2rem]">
+      <div className="sticky top-0 px-[2rem] md:px-[4.5rem] py-[2rem]">
         <div className="bg-[#4c4d5a] top-0 right-0 absolute w-full h-full z-[-1]" />
         <div className="flex items-center justify-between">
           <button
@@ -40,7 +40,7 @@ const Menu = ({ isMenuOpen, setIsMenuOpen }: { isMenuOpen: boolean; setIsMenuOpe
           </div>
         </div>
       </div>
-      <div className="py-[6.25rem_3.75rem] px-[2rem] flex flex-col justify-between gap-[12.50rem]">
+      <div className="py-[6.25rem_3.75rem] px-[2rem] md:px-[4.5rem] flex flex-col justify-between gap-[12.50rem]">
         <div>
           <ul className="flex flex-col gap-[3.75rem]">
             <li>
